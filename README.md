@@ -54,3 +54,13 @@ sudo rpm --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg && sudo
 ```bash
 printf "[antigravity-rpm]\nname=Antigravity RPM Repository\nbaseurl=https://us-central1-yum.pkg.dev/projects/antigravity-auto-updater-dev/antigravity-rpm\nenabled=1\ngpgcheck=0\n" | sudo tee /etc/yum.repos.d/antigravity.repo > /dev/null && sudo dnf install -y antigravity
 ```
+
+### Install Zoom
+```bash
+sudo dnf install -y https://zoom.us/client/latest/zoom_x86_64.rpm
+```
+
+### Install PeaZip
+```bash
+sudo dnf install -y peazip-qt5
+```
