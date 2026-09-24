@@ -64,3 +64,8 @@ sudo dnf install -y https://zoom.us/client/latest/zoom_x86_64.rpm
 ```bash
 sudo dnf install -y peazip-qt5
 ```
+
+### Install DBGate
+```bash
+sudo dnf install -y https://github.com/dbgate/dbgate/releases/latest/download/dbgate_linux_x86_64.rpm```
+
